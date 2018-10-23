@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/secondary_material_light"
+    android:elevation="4dp"
+    android:paddingTop="@dimen/smallVerticalTextPadding"
+    android:paddingBottom="@dimen/smallVerticalTextPadding"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_left"
+        android:src="@drawable/ic_chevron_left_white_24dp"
+        android:background="?android:selectableItemBackground"
+        android:paddingStart="@dimen/horizontalDateNavPadding"
+        android:paddingEnd="@dimen/horizontalDateNavPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minEms="6"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSizeDate"
+        android:textColor="@color/primary_text_material_light"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/date_text"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_right_white_24dp"
+        android:id="@+id/date_right"
+        android:paddingStart="@dimen/horizontalDateNavPadding"
+        android:paddingEnd="@dimen/horizontalDateNavPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"
+        android:background="?android:selectableItemBackground"/>
+
+</LinearLayout>

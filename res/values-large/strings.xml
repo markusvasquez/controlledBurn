@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_type">FULL_BANNER</string>
+    <string name="normal">normal</string>
+</resources>

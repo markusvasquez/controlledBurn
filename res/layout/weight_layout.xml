@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/quaternary_material_light"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingEnd="@dimen/firstLeftTab"
+    android:paddingStart="@dimen/firstLeftTab">
+
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/weight_spinner"
+        android:popupBackground="@color/quaternary_material_light"
+        style="@style/Base.Widget.AppCompat.Spinner"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight_accept_button"
+        android:layout_alignParentEnd="true"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_done_black_24dp"
+        android:layout_centerVertical="true"
+        android:paddingEnd="@dimen/horizontalImageButtonPadding"
+        android:paddingStart="@dimen/horizontalImageButtonPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight_entry"
+        android:inputType="numberDecimal"
+        android:width="48sp"
+        android:gravity="center"
+        android:maxLength="6"
+        android:textSize="@dimen/textSizeEditText"
+        android:layout_toStartOf="@id/weight_accept_button"
+        android:imeOptions="actionDone"
+        android:enabled="false"
+        android:backgroundTint="@android:color/transparent"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:layout_toStartOf="@id/weight_entry"
+        android:background="?android:selectableItemBackground"
+        android:layout_centerVertical="true"
+        android:id="@+id/weight_remove"
+        android:paddingEnd="@dimen/horizontalImageButtonPadding"
+        android:paddingStart="@dimen/horizontalImageButtonPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"
+        android:visibility="invisible"/>
+
+
+
+
+
+</RelativeLayout>

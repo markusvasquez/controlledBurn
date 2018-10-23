@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="controlledBurn.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/tertiary_material_light"
+    android:id="@+id/main_container">
+
+
+    <include layout="@layout/app_bar"/>
+
+
+    <include layout="@layout/chart_layout"/>
+
+    <include layout="@layout/date_layout" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:elevation="1dp"
+        android:layout_weight="9"
+        android:background="@color/quaternary_material_light"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/verticalActivityMargin"
+            android:id="@+id/scroll_holder">
+
+            <include layout="@layout/weight_layout"/>
+
+            <include layout="@layout/divider"/>
+
+
+            <include layout="@layout/small_snack_layout"/>
+
+
+            <include layout="@layout/snacks_layout"/>
+            <include layout="@layout/divider"/>
+
+
+            <include layout="@layout/small_meal_layout"/>
+
+
+            <include layout="@layout/meal_layout"/>
+
+
+            <include layout="@layout/large_meal_layout"/>
+            <include layout="@layout/divider"/>
+
+
+            <include layout="@layout/beverage_layout"/>
+            <include layout="@layout/divider"/>
+
+
+            <include layout="@layout/exercise_entry_layout"/>
+            <include layout="@layout/divider"/>
+
+
+
+            <include layout="@layout/other_calories_layout"/>
+
+
+            <include layout="@layout/other_exercise_layout"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

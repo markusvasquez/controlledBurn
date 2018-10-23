@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quaternary_material_light">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/primary_material_light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/base_energy_expenditure"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/base_energy_expenditure"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/exercise_cal_min"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/exercise_cal_min"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/small_snack_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/small_snack_cal"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/large_snack_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/large_snack_cal"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/small_meal_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/small_meal_cal"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/regular_meal_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/regular_meal_cal"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/large_meal_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/large_meal_cal"/>
+
+
+    </RelativeLayout>
+
+            <include layout="@layout/divider"/>
+
+
+            <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quaternary_material_light"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:text="@string/beverage_cal"
+            android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeTextView"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/beverage_cal"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_warning"
+        android:textSize="@dimen/textSizeCaption"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="@dimen/firstLeftTab"
+        android:paddingEnd="@dimen/firstLeftTab"
+        android:paddingTop="@dimen/smallVerticalTextPadding"
+        android:paddingBottom="@dimen/smallVerticalTextPadding"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

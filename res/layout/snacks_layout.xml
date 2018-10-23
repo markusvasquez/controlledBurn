@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/quaternary_material_light"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingEnd="@dimen/firstLeftTab"
+    android:paddingStart="@dimen/secondLeftTab">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/textSizeTextView"
+        android:text="@string/reg_snacks"
+        android:id="@+id/large_snack_text"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snack_plus"
+        android:layout_alignParentEnd="true"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_centerVertical="true"
+        android:paddingEnd="@dimen/horizontalImageButtonPadding"
+        android:paddingStart="@dimen/horizontalImageButtonPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snack_entry"
+        android:inputType="numberDecimal"
+        android:width="48sp"
+        android:gravity="center"
+        android:maxLength="6"
+        android:textSize="@dimen/textSizeEditText"
+        android:enabled="false"
+        android:layout_toStartOf="@id/snack_plus"
+        android:backgroundTint="@drawable/transparent_edittext_background"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_toStartOf="@id/snack_entry"
+        android:background="?android:selectableItemBackground"
+        android:layout_centerVertical="true"
+        android:id="@+id/snack_minus"
+        android:paddingEnd="@dimen/horizontalImageButtonPadding"
+        android:paddingStart="@dimen/horizontalImageButtonPadding"
+        android:paddingTop="@dimen/verticalImageButtonPadding"
+        android:paddingBottom="@dimen/verticalImageButtonPadding"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="firstLeftTab">16dp</dimen>
+    <dimen name="secondLeftTab">24dp</dimen>
+    <dimen name="cardPaddingTop">16dp</dimen>
+    <dimen name="cardPaddingBottom">16dp</dimen>
+    <dimen name="verticalActivityMargin">8dp</dimen>
+
+    <dimen name="smallVerticalTextPadding">8dp</dimen>
+    <dimen name="suggestedVerticalTextPadding">16dp</dimen>
+
+    <dimen name="horizontalImageButtonPadding">6dp</dimen>
+    <dimen name="horizontalImageButtonMargin">8dp</dimen>
+    <dimen name="verticalImageButtonPadding">4dp</dimen>
+
+    <dimen name="horizontalDateNavPadding">16dp</dimen>
+
+    <dimen name="textSizeTitle">20sp</dimen>
+    <dimen name="textSizeSubheading">16sp</dimen>
+    <dimen name="textSizeBody2">14sp</dimen>
+    <dimen name="textSizeBody1">14sp</dimen>
+    <dimen name="textSizeCaption">12sp</dimen>
+    <dimen name="textSizeButton">14sp</dimen>
+    
+    <dimen name="textSizeTextView">@dimen/textSizeSubheading</dimen>
+    <dimen name="textSizeEditText">@dimen/textSizeSubheading</dimen>
+    <dimen name="textSizeDate">@dimen/textSizeSubheading</dimen>
+</resources>
